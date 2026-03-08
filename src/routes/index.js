@@ -3,9 +3,7 @@ import { authRoutes } from './authRoutes';
 import { userRoutes } from './userRoutes';
 import { checkoutRoutes } from './checkoutRoutes';
 import { passwordRoutes } from './passwordRoutes';
-
 export const routes = Router();
-
 routes.use('/auth', authRoutes);
 routes.use('/user', userRoutes);
 routes.use('/checkout', checkoutRoutes);

@@ -1,0 +1,11 @@
+import { Router } from 'express';
+import { UserController } from '../controllers/userController';
+import { ensureAuthenticated } from '../middlewares/ensureAuthenticated';
+import { validate } from '../middlewares/validate';
+import { updateProfileSchema, changePasswordSchema } from '../schemas/userSchemas';
+export const userRoutes = Router();
+const userController = new UserController();
+userRoutes.put('/profile', ensureAuthenticated, userController.updateProfile);
+userRoutes.post('/password', ensureAuthenticated, userController.changePassword);
+userRoutes.put('/profile', ensureAuthenticated, validate(updateProfileSchema), userController.updateProfile);
+userRoutes.post('/password', ensureAuthenticated, validate(changePasswordSchema), userController.changePassword);
