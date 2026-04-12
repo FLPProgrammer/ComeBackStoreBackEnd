@@ -13,6 +13,35 @@ Checkout: Processamento de pedidos e lógica transacional da loja.
 🔗 Integração
 A API fornece suporte integral ao Front-end, garantindo persistência de dados e execução de regras de negócio em tempo real.
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="20"> Node.js
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="20"> TypeScript
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="20"> PostgreSQL
+
+
+<div align="center">
+
+<table>
+<tr>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="60"/>
+
+
+Node.js
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="60"/>
+
+
+TypeScript
+</td>
+
+<td align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="60"/>
+
+
+PostgreSQL
+</td>
+
+</tr>
+</table>
+
+</div>
